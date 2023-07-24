@@ -12,6 +12,11 @@
   "nx": {
     "namedInputs": {
       "buildInputs": ["nest"]
+    },
+    "targets": {
+      "build": {
+        "outputs": ["output.txt"]
+      }
     }
   }
 }
