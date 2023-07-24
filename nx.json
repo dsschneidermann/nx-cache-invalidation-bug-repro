@@ -6,13 +6,26 @@
       "runner": "nx-cloud",
       "options": {
         "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
+          "build"
         ],
         "accessToken": "ZWI5Yzk3YTktOThkNi00Yzg2LTgwODktNTEwYzYwMWQyYTIxfHJlYWQtd3JpdGU="
       }
+    }
+  },
+  "namedInputs": {
+    "nest": [
+      "{projectRoot}/src/**/*"
+    ]
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "buildInputs",
+        "^buildInputs"
+      ]
     }
   }
 }
