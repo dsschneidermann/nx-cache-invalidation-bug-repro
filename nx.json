@@ -8,12 +8,12 @@
         "cacheableOperations": [
           "build"
         ],
-        "accessToken": "ZWI5Yzk3YTktOThkNi00Yzg2LTgwODktNTEwYzYwMWQyYTIxfHJlYWQtd3JpdGU="
+        "accessToken": ""
       }
     }
   },
   "namedInputs": {
-    "nest": [
+    "buildInputs": [
       "{projectRoot}/src/**/*"
     ]
   },
@@ -25,6 +25,9 @@
       "inputs": [
         "buildInputs",
         "^buildInputs"
+      ],
+      "outputs": [
+        "{projectRoot}/output.txt"
       ]
     }
   }

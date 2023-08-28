@@ -8,15 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "nx": {
-    "namedInputs": {
-      "buildInputs": ["nest"]
-    },
-    "targets": {
-      "build": {
-        "outputs": ["output.txt"]
-      }
-    }
-  }
+  "license": "ISC"
 }
